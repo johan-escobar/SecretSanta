@@ -67,7 +67,6 @@ namespace SecretSanta
             SmtpServer.Send(mail);
             SmtpServer.Dispose();
             
-            
         }
 
         public List<Participant> SecretSantaList(string participantsData)

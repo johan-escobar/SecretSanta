@@ -5,7 +5,7 @@ namespace SecretSanta
     interface ISecretSanta 
     {
         void SendEmail(Participant secretSanta, string to);
-        void RandomNameSelector(string data);
-        List<Participant> SecretSantaList();
+        void RandomNameSelector();
+        List<Participant> SecretSantaList(string participantsData);
     }
 }
